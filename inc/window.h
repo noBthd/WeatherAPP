@@ -6,7 +6,7 @@
 class QPushButton;
 
 class Window : public QWidget {
-    Q_OBJECT
+    // Q_OBJECT
     // QML_ELEMENT
 public:
     explicit Window(QWidget *parent = 0);

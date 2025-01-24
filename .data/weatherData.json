@@ -1,19 +1,19 @@
 {
     "base": "stations",
     "clouds": {
-        "all": 63
+        "all": 68
     },
     "cod": 200,
     "coord": {
         "lat": 55.7522,
         "lon": 37.6156
     },
-    "dt": 1737744225,
+    "dt": 1737752311,
     "id": 524901,
     "main": {
-        "feels_like": -4.9,
+        "feels_like": -4.74,
         "grnd_level": 1002,
-        "humidity": 65,
+        "humidity": 63,
         "pressure": 1022,
         "sea_level": 1022,
         "temp": -1.65,
@@ -39,8 +39,8 @@
         }
     ],
     "wind": {
-        "deg": 188,
-        "gust": 6.3,
-        "speed": 2.43
+        "deg": 195,
+        "gust": 5.94,
+        "speed": 2.29
     }
 }
