@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "WeatherApp",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "WeatherApp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-WeatherApp-Debug-8b39108b5ab550843dff.json",
+					"name" : "WeatherApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "WeatherApp_other_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-WeatherApp_other_files-Debug-bba3a38f93ff2eb17411.json",
+					"name" : "WeatherApp_other_files",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/egorkirichenko/Projects/C++/WeatherAPP/build",
+		"source" : "/Users/egorkirichenko/Projects/C++/WeatherAPP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

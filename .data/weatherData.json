@@ -1,0 +1,46 @@
+{
+    "base": "stations",
+    "clouds": {
+        "all": 63
+    },
+    "cod": 200,
+    "coord": {
+        "lat": 55.7522,
+        "lon": 37.6156
+    },
+    "dt": 1737744225,
+    "id": 524901,
+    "main": {
+        "feels_like": -4.9,
+        "grnd_level": 1002,
+        "humidity": 65,
+        "pressure": 1022,
+        "sea_level": 1022,
+        "temp": -1.65,
+        "temp_max": -0.76,
+        "temp_min": -1.85
+    },
+    "name": "Москва",
+    "sys": {
+        "country": "RU",
+        "id": 2094500,
+        "sunrise": 1737697033,
+        "sunset": 1737726343,
+        "type": 2
+    },
+    "timezone": 10800,
+    "visibility": 10000,
+    "weather": [
+        {
+            "description": "облачно с прояснениями",
+            "icon": "04n",
+            "id": 803,
+            "main": "Clouds"
+        }
+    ],
+    "wind": {
+        "deg": 188,
+        "gust": 6.3,
+        "speed": 2.43
+    }
+}

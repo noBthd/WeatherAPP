@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="ui/Main.qml">/Users/egorkirichenko/Projects/C++/WeatherAPP/ui/Main.qml</file>
+  </qresource>
+</RCC>
+
