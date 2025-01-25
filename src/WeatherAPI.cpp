@@ -29,7 +29,7 @@ void getWeatherData(void* _callApiArgs) {
 }
 
 void formatWeatherAPI(std::string* weatherAPI) {
-    *weatherAPI = fmt::format("http://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&lang=ru&units=metric", CITY, APIKEY);
+    *weatherAPI = fmt::format("http://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&units=metric", CITY, APIKEY);
 }
 
 size_t writeCallback(void* contents, size_t size, size_t nmemb, std::string* buffer) {

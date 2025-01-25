@@ -19,12 +19,12 @@ set(SOURCES
     src/window.cpp
 )
 
-# set(INCLUDES
-#     inc/App.h
-#     inc/JSONUtils.h
-#     inc/WeatherAPI.h
-#     inc/window.h
-# )
+set(INCLUDES
+    inc/App.h
+    inc/JSONUtils.h
+    inc/WeatherAPI.h
+    inc/window.h
+)
 
 add_executable(WeatherApp 
     ${SOURCES}
@@ -34,13 +34,20 @@ add_executable(WeatherApp
 qt_add_resources(WeatherApp "qml_resources"
     PREFIX "/"
     FILES
-        ui/Main.qml
-        # ui/Components/Button.qml
+        ui/weather.qrc
+        ui/components/main.qml
+        ui/fonts/SaarSPDemo.otf
+
 )
 
 target_include_directories(WeatherApp PRIVATE inc)
 
-target_link_libraries(WeatherApp PRIVATE Qt6::Widgets Qt6::Qml Qt6::QmlIntegration)
+target_link_libraries(WeatherApp 
+    PRIVATE 
+        Qt6::Widgets 
+        Qt6::Qml 
+        Qt6::QmlIntegration
+)
 target_link_libraries(WeatherApp PRIVATE fmt::fmt)
 target_link_libraries(WeatherApp PRIVATE CURL::libcurl)
 target_link_libraries(WeatherApp PRIVATE nlohmann_json::nlohmann_json)

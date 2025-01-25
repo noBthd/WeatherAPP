@@ -69,7 +69,9 @@ include CMakeFiles/WeatherApp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/WeatherApp.dir/flags.make
 
-.qt/rcc/qrc_qml_resources.cpp: /Users/egorkirichenko/Projects/C++/WeatherAPP/ui/Main.qml
+.qt/rcc/qrc_qml_resources.cpp: /Users/egorkirichenko/Projects/C++/WeatherAPP/ui/weather.qrc
+.qt/rcc/qrc_qml_resources.cpp: /Users/egorkirichenko/Projects/C++/WeatherAPP/ui/components/main.qml
+.qt/rcc/qrc_qml_resources.cpp: /Users/egorkirichenko/Projects/C++/WeatherAPP/ui/fonts/SaarSPDemo.otf
 .qt/rcc/qrc_qml_resources.cpp: .qt/rcc/qml_resources.qrc
 .qt/rcc/qrc_qml_resources.cpp: /opt/homebrew/share/qt/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/egorkirichenko/Projects/C++/WeatherAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running rcc for resource qml_resources"
