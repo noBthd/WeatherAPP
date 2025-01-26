@@ -1,6 +1,5 @@
 #include "JSONUtils.h"
 #include "WeatherAPI.h"
-#include "strFormatUtils.h"
 #include "clock.h"
 #include "weatherBlock.h"
 
