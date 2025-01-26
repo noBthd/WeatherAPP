@@ -14,9 +14,9 @@ std::string formatTemp(std::string str) {
     try {
         tmpD = std::stod(str);
     } catch (const std::invalid_argument& e) {
-        std::cerr << "Ошибка: строка не является числом." << std::endl;
+        std::cerr << "Error isn't number!" << std::endl;
     } catch (const std::out_of_range& e) {
-        std::cerr << "Ошибка: число выходит за пределы диапазона double." << std::endl;
+        std::cerr << "Error out of range double!" << std::endl;
     }
 
     int newInt = std::round(tmpD);
