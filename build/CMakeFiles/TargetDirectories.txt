@@ -1,4 +1,3 @@
 /Users/egorkirichenko/Projects/C++/WeatherAPP/build/CMakeFiles/WeatherApp.dir
-/Users/egorkirichenko/Projects/C++/WeatherAPP/build/CMakeFiles/WeatherApp_other_files.dir
 /Users/egorkirichenko/Projects/C++/WeatherAPP/build/CMakeFiles/edit_cache.dir
 /Users/egorkirichenko/Projects/C++/WeatherAPP/build/CMakeFiles/rebuild_cache.dir

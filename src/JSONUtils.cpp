@@ -1,4 +1,5 @@
 #include "JSONUtils.h"
+#include "strFormatUtils.h"
 
 #include <iostream>
 #include <string>
@@ -22,7 +23,7 @@ std::string getData(std::string param1, std::string param2 = "") {
 
     if (param2.empty()) {
         try {
-            return jsonData[param1].dump();
+            return removeQuotes(jsonData[param1].dump());
         } catch (const nlohmann::json::parse_error& e) {
             std::cout << "JSON params not found" << e.what() << std::endl;
             return "JSON PARSE ERROR";
@@ -31,9 +32,9 @@ std::string getData(std::string param1, std::string param2 = "") {
 
     try {
         if (jsonData[param1].is_array()) {
-            return jsonData[param1][0][param2].dump();
+            return removeQuotes(jsonData[param1][0][param2].dump());
         } else {
-            return jsonData[param1][param2].dump();
+            return removeQuotes(jsonData[param1][param2].dump());
         }
     } catch (const nlohmann::json::parse_error& e) {
         std::cout << "JSON params not found" << e.what() << std::endl;
@@ -58,3 +59,4 @@ void writeWeatherDataIntoJson(nlohmann::json* jsonData) {
 
     file.close();
 }
+

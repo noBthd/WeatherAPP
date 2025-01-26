@@ -1,19 +1,17 @@
 file(REMOVE_RECURSE
-  ".qt/rcc/qrc_qml_resources.cpp"
-  "CMakeFiles/WeatherApp.dir/build/.qt/rcc/qrc_qml_resources.cpp.o"
-  "CMakeFiles/WeatherApp.dir/build/.qt/rcc/qrc_qml_resources.cpp.o.d"
-  "CMakeFiles/WeatherApp.dir/src/App.cpp.o"
-  "CMakeFiles/WeatherApp.dir/src/App.cpp.o.d"
+  "CMakeFiles/WeatherApp.dir/qrc_weather.cpp.o"
+  "CMakeFiles/WeatherApp.dir/qrc_weather.cpp.o.d"
   "CMakeFiles/WeatherApp.dir/src/JSONUtils.cpp.o"
   "CMakeFiles/WeatherApp.dir/src/JSONUtils.cpp.o.d"
   "CMakeFiles/WeatherApp.dir/src/WeatherAPI.cpp.o"
   "CMakeFiles/WeatherApp.dir/src/WeatherAPI.cpp.o.d"
   "CMakeFiles/WeatherApp.dir/src/main.cpp.o"
   "CMakeFiles/WeatherApp.dir/src/main.cpp.o.d"
-  "CMakeFiles/WeatherApp.dir/src/window.cpp.o"
-  "CMakeFiles/WeatherApp.dir/src/window.cpp.o.d"
+  "CMakeFiles/WeatherApp.dir/src/strFormatUtils.cpp.o"
+  "CMakeFiles/WeatherApp.dir/src/strFormatUtils.cpp.o.d"
   "WeatherApp"
   "WeatherApp.pdb"
+  "qrc_weather.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

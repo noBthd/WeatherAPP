@@ -6,3 +6,4 @@
 void parseWeatherData(std::string*, nlohmann::json*);
 void writeWeatherDataIntoJson(nlohmann::json*);
 std::string getData(std::string, std::string);
+std::string removeQuotes(std::string);

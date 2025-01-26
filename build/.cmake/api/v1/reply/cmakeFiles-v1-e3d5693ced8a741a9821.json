@@ -4464,8 +4464,7 @@
 			"path" : "/opt/homebrew/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake"
 		},
 		{
-			"isExternal" : true,
-			"path" : "/opt/homebrew/opt/qt/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+			"path" : "ui/weather.qrc"
 		}
 	],
 	"kind" : "cmakeFiles",

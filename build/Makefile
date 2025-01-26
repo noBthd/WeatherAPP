@@ -129,66 +129,29 @@ WeatherApp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/build
 .PHONY : WeatherApp/fast
 
-#=============================================================================
-# Target rules for targets named WeatherApp_other_files
-
-# Build rule for target.
-WeatherApp_other_files: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 WeatherApp_other_files
-.PHONY : WeatherApp_other_files
-
-# fast build rule for target.
-WeatherApp_other_files/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp_other_files.dir/build.make CMakeFiles/WeatherApp_other_files.dir/build
-.PHONY : WeatherApp_other_files/fast
-
-build/.qt/rcc/qrc_qml_resources.o: build/.qt/rcc/qrc_qml_resources.cpp.o
-.PHONY : build/.qt/rcc/qrc_qml_resources.o
+qrc_weather.o: qrc_weather.cpp.o
+.PHONY : qrc_weather.o
 
 # target to build an object file
-build/.qt/rcc/qrc_qml_resources.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/build/.qt/rcc/qrc_qml_resources.cpp.o
-.PHONY : build/.qt/rcc/qrc_qml_resources.cpp.o
+qrc_weather.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/qrc_weather.cpp.o
+.PHONY : qrc_weather.cpp.o
 
-build/.qt/rcc/qrc_qml_resources.i: build/.qt/rcc/qrc_qml_resources.cpp.i
-.PHONY : build/.qt/rcc/qrc_qml_resources.i
-
-# target to preprocess a source file
-build/.qt/rcc/qrc_qml_resources.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/build/.qt/rcc/qrc_qml_resources.cpp.i
-.PHONY : build/.qt/rcc/qrc_qml_resources.cpp.i
-
-build/.qt/rcc/qrc_qml_resources.s: build/.qt/rcc/qrc_qml_resources.cpp.s
-.PHONY : build/.qt/rcc/qrc_qml_resources.s
-
-# target to generate assembly for a file
-build/.qt/rcc/qrc_qml_resources.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/build/.qt/rcc/qrc_qml_resources.cpp.s
-.PHONY : build/.qt/rcc/qrc_qml_resources.cpp.s
-
-src/App.o: src/App.cpp.o
-.PHONY : src/App.o
-
-# target to build an object file
-src/App.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/src/App.cpp.o
-.PHONY : src/App.cpp.o
-
-src/App.i: src/App.cpp.i
-.PHONY : src/App.i
+qrc_weather.i: qrc_weather.cpp.i
+.PHONY : qrc_weather.i
 
 # target to preprocess a source file
-src/App.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/src/App.cpp.i
-.PHONY : src/App.cpp.i
+qrc_weather.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/qrc_weather.cpp.i
+.PHONY : qrc_weather.cpp.i
 
-src/App.s: src/App.cpp.s
-.PHONY : src/App.s
+qrc_weather.s: qrc_weather.cpp.s
+.PHONY : qrc_weather.s
 
 # target to generate assembly for a file
-src/App.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/src/App.cpp.s
-.PHONY : src/App.cpp.s
+qrc_weather.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/qrc_weather.cpp.s
+.PHONY : qrc_weather.cpp.s
 
 src/JSONUtils.o: src/JSONUtils.cpp.o
 .PHONY : src/JSONUtils.o
@@ -262,29 +225,29 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/window.o: src/window.cpp.o
-.PHONY : src/window.o
+src/strFormatUtils.o: src/strFormatUtils.cpp.o
+.PHONY : src/strFormatUtils.o
 
 # target to build an object file
-src/window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/src/window.cpp.o
-.PHONY : src/window.cpp.o
+src/strFormatUtils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/src/strFormatUtils.cpp.o
+.PHONY : src/strFormatUtils.cpp.o
 
-src/window.i: src/window.cpp.i
-.PHONY : src/window.i
+src/strFormatUtils.i: src/strFormatUtils.cpp.i
+.PHONY : src/strFormatUtils.i
 
 # target to preprocess a source file
-src/window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/src/window.cpp.i
-.PHONY : src/window.cpp.i
+src/strFormatUtils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/src/strFormatUtils.cpp.i
+.PHONY : src/strFormatUtils.cpp.i
 
-src/window.s: src/window.cpp.s
-.PHONY : src/window.s
+src/strFormatUtils.s: src/strFormatUtils.cpp.s
+.PHONY : src/strFormatUtils.s
 
 # target to generate assembly for a file
-src/window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/src/window.cpp.s
-.PHONY : src/window.cpp.s
+src/strFormatUtils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/src/strFormatUtils.cpp.s
+.PHONY : src/strFormatUtils.cpp.s
 
 # Help Target
 help:
@@ -294,14 +257,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... WeatherApp_other_files"
 	@echo "... WeatherApp"
-	@echo "... build/.qt/rcc/qrc_qml_resources.o"
-	@echo "... build/.qt/rcc/qrc_qml_resources.i"
-	@echo "... build/.qt/rcc/qrc_qml_resources.s"
-	@echo "... src/App.o"
-	@echo "... src/App.i"
-	@echo "... src/App.s"
+	@echo "... qrc_weather.o"
+	@echo "... qrc_weather.i"
+	@echo "... qrc_weather.s"
 	@echo "... src/JSONUtils.o"
 	@echo "... src/JSONUtils.i"
 	@echo "... src/JSONUtils.s"
@@ -311,9 +270,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/window.o"
-	@echo "... src/window.i"
-	@echo "... src/window.s"
+	@echo "... src/strFormatUtils.o"
+	@echo "... src/strFormatUtils.i"
+	@echo "... src/strFormatUtils.s"
 .PHONY : help
 
 

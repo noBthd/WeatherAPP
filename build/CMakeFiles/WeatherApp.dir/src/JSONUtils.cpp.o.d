@@ -1058,5 +1058,6 @@ CMakeFiles/WeatherApp.dir/src/JSONUtils.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/literals.h \
   /opt/homebrew/include/nlohmann/detail/macro_unscope.hpp \
   /opt/homebrew/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
+  /Users/egorkirichenko/Projects/C++/WeatherAPP/inc/strFormatUtils.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/fstream

@@ -11,6 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.30.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.30.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.4/CMakeSystem.cmake"
+  "/Users/egorkirichenko/Projects/C++/WeatherAPP/ui/weather.qrc"
   "/opt/homebrew/Cellar/cmake/3.30.4/share/cmake/Modules/CMakeCInformation.cmake"
   "/opt/homebrew/Cellar/cmake/3.30.4/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/opt/homebrew/Cellar/cmake/3.30.4/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -126,7 +127,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/homebrew/opt/qt/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake"
   "/opt/homebrew/opt/qt/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake"
   "/opt/homebrew/opt/qt/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake"
-  "/opt/homebrew/opt/qt/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
   "/opt/homebrew/opt/qt/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake"
   "/opt/homebrew/opt/qt/lib/cmake/Qt6Core/Qt6CoreMacros.cmake"
   "/opt/homebrew/opt/qt/lib/cmake/Qt6Core/Qt6CorePlugins.cmake"
@@ -783,7 +783,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  ".qt/rcc/qml_resources.qrc"
+  "ui/weather.qrc.depends"
   ".qt/QtDeploySupport.cmake"
   ".qt/QtDeployTargets.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -792,5 +792,4 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/WeatherApp.dir/DependInfo.cmake"
-  "CMakeFiles/WeatherApp_other_files.dir/DependInfo.cmake"
   )

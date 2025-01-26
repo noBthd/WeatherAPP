@@ -1,6 +1,6 @@
 #include "JSONUtils.h"
 #include "WeatherAPI.h"
-#include "window.h"
+#include "strFormatUtils.h"
 
 #include <string>
 #include <QApplication>
@@ -26,14 +26,12 @@ int main(int argc, char *argv[]) {
     QQmlApplicationEngine engine;
 
     QString city = QString::fromStdString(getData("name", ""));
+    QString temp = QString::fromStdString(formatTemp(getData("main", "temp")));
 
     engine.rootContext()->setContextProperty("city", city);
+    engine.rootContext()->setContextProperty("temp", temp);
 
-    engine.load(QUrl::fromLocalFile("/Users/egorkirichenko/Projects/C++/WeatherAPP/ui/components/main.qml"));
-    // engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
-
-    // MainWindow win;
-    // win.show();
+    engine.load(QUrl(QStringLiteral("qrc:/ui/main.qml")));
 
     return app.exec();
 }

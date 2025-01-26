@@ -15,8 +15,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -31,8 +30,7 @@
 					"name" : "WeatherApp",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -41,15 +39,8 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "WeatherApp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-WeatherApp-Debug-605da53b4b642f9a84a3.json",
+					"jsonFile" : "target-WeatherApp-Debug-04318b15b45392d328c7.json",
 					"name" : "WeatherApp",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "WeatherApp_other_files::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-WeatherApp_other_files-Debug-726d862c03c29c45ee93.json",
-					"name" : "WeatherApp_other_files",
 					"projectIndex" : 0
 				}
 			]
