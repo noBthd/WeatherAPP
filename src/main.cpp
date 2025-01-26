@@ -1,6 +1,8 @@
 #include "JSONUtils.h"
 #include "WeatherAPI.h"
 #include "strFormatUtils.h"
+#include "clock.h"
+#include "weatherBlock.h"
 
 #include <string>
 #include <QApplication>
@@ -9,6 +11,9 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
+#include <QDebug>
+#include <QTimer>
+
 
 int main(int argc, char *argv[]) {
     std::string* weatherAPI = new std::string; 
@@ -26,10 +31,17 @@ int main(int argc, char *argv[]) {
     QQmlApplicationEngine engine;
 
     QString city = QString::fromStdString(getData("name", ""));
-    QString temp = QString::fromStdString(formatTemp(getData("main", "temp")));
-
     engine.rootContext()->setContextProperty("city", city);
-    engine.rootContext()->setContextProperty("temp", temp);
+
+    //! first thread
+    Weather weather;
+    engine.rootContext()->setContextProperty("weather", &weather);
+    weather.start(&engine);
+    
+    //! second thread
+    Clock clock;
+    engine.rootContext()->setContextProperty("clock", &clock);
+    clock.start(&engine);
 
     engine.load(QUrl(QStringLiteral("qrc:/ui/main.qml")));
 

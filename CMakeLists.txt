@@ -16,12 +16,16 @@ set(SOURCES
     src/WeatherAPI.cpp
     src/JSONUtils.cpp
     src/strFormatUtils.cpp
+    src/clock.cpp
+    src/weatherBlock.cpp
 )
 
 set(INCLUDES
     inc/JSONUtils.h
     inc/WeatherAPI.h
     inc/strFormatUtils.h
+    inc/clock.h
+    inc/weatherBlock.h
 )
 
 add_executable(WeatherApp 

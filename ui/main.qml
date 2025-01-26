@@ -32,7 +32,8 @@ ApplicationWindow {
 
         Text {
             // !!! temp place_holder !!!
-            text: "13:29"
+            // text: "20:09"
+            text: time
             font {
                 pixelSize: 12
             }

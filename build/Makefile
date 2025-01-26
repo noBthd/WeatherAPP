@@ -201,6 +201,30 @@ src/WeatherAPI.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/src/WeatherAPI.cpp.s
 .PHONY : src/WeatherAPI.cpp.s
 
+src/clock.o: src/clock.cpp.o
+.PHONY : src/clock.o
+
+# target to build an object file
+src/clock.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/src/clock.cpp.o
+.PHONY : src/clock.cpp.o
+
+src/clock.i: src/clock.cpp.i
+.PHONY : src/clock.i
+
+# target to preprocess a source file
+src/clock.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/src/clock.cpp.i
+.PHONY : src/clock.cpp.i
+
+src/clock.s: src/clock.cpp.s
+.PHONY : src/clock.s
+
+# target to generate assembly for a file
+src/clock.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/src/clock.cpp.s
+.PHONY : src/clock.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -249,6 +273,30 @@ src/strFormatUtils.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/src/strFormatUtils.cpp.s
 .PHONY : src/strFormatUtils.cpp.s
 
+src/weatherBlock.o: src/weatherBlock.cpp.o
+.PHONY : src/weatherBlock.o
+
+# target to build an object file
+src/weatherBlock.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/src/weatherBlock.cpp.o
+.PHONY : src/weatherBlock.cpp.o
+
+src/weatherBlock.i: src/weatherBlock.cpp.i
+.PHONY : src/weatherBlock.i
+
+# target to preprocess a source file
+src/weatherBlock.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/src/weatherBlock.cpp.i
+.PHONY : src/weatherBlock.cpp.i
+
+src/weatherBlock.s: src/weatherBlock.cpp.s
+.PHONY : src/weatherBlock.s
+
+# target to generate assembly for a file
+src/weatherBlock.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherApp.dir/build.make CMakeFiles/WeatherApp.dir/src/weatherBlock.cpp.s
+.PHONY : src/weatherBlock.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -267,12 +315,18 @@ help:
 	@echo "... src/WeatherAPI.o"
 	@echo "... src/WeatherAPI.i"
 	@echo "... src/WeatherAPI.s"
+	@echo "... src/clock.o"
+	@echo "... src/clock.i"
+	@echo "... src/clock.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... src/strFormatUtils.o"
 	@echo "... src/strFormatUtils.i"
 	@echo "... src/strFormatUtils.s"
+	@echo "... src/weatherBlock.o"
+	@echo "... src/weatherBlock.i"
+	@echo "... src/weatherBlock.s"
 .PHONY : help
 
 
