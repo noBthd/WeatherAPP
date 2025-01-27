@@ -1059,7 +1059,6 @@ CMakeFiles/WeatherApp.dir/src/main.cpp.o: \
   /opt/homebrew/include/nlohmann/detail/macro_unscope.hpp \
   /opt/homebrew/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
   /Users/egorkirichenko/Projects/C++/WeatherAPP/inc/WeatherAPI.h \
-  /Users/egorkirichenko/Projects/C++/WeatherAPP/inc/strFormatUtils.h \
   /Users/egorkirichenko/Projects/C++/WeatherAPP/inc/clock.h \
   /opt/homebrew/opt/qt/lib/QtQml.framework/Headers/QQmlApplicationEngine \
   /opt/homebrew/opt/qt/lib/QtQml.framework/Headers/qqmlapplicationengine.h \

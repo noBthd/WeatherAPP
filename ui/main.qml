@@ -31,8 +31,7 @@ ApplicationWindow {
         }
 
         Text {
-            // !!! temp place_holder !!!
-            // text: "20:09"
+            // ??? temp place_holder ???
             text: time
             font {
                 pixelSize: 12
@@ -56,6 +55,21 @@ ApplicationWindow {
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.top: parent.top
             anchors.topMargin: 326
+        }
+
+        Text {
+            //!!! temp place_holder !!!
+            // text: "overcast clouds"
+            text: description
+            font {
+                pixelSize: 24
+                weight: 900
+            }
+            color: "#95ffffff"
+
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.top: parent.top
+            anchors.topMargin: 380
         }
 
         Column {
@@ -83,8 +97,8 @@ ApplicationWindow {
                             scale: 1.0
 
                             Text {
-                                id: infoText
-                                text: "Info " + (index + 1) + ":" // Индекс элемента модели + 1 (для уникальности)
+                                id: "infoText"
+                                text: "Info " + (index + 1) + ":"
                                 font {
                                     pixelSize: 16
                                     weight: 900
@@ -98,6 +112,7 @@ ApplicationWindow {
                             }
 
                             Text {
+                                id: "test"
                                 text: "test"
                                 font {
                                     pixelSize: 32

@@ -4338,7 +4338,6 @@ CMakeFiles/WeatherApp.dir/src/main.cpp.o
  /Users/egorkirichenko/Projects/C++/WeatherAPP/inc/JSONUtils.h
  /Users/egorkirichenko/Projects/C++/WeatherAPP/inc/WeatherAPI.h
  /Users/egorkirichenko/Projects/C++/WeatherAPP/inc/clock.h
- /Users/egorkirichenko/Projects/C++/WeatherAPP/inc/strFormatUtils.h
  /Users/egorkirichenko/Projects/C++/WeatherAPP/inc/weatherBlock.h
  /opt/homebrew/include/nlohmann/adl_serializer.hpp
  /opt/homebrew/include/nlohmann/byte_container_with_subtype.hpp

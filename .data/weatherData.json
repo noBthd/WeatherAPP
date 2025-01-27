@@ -8,24 +8,24 @@
         "lat": 55.7522,
         "lon": 37.6156
     },
-    "dt": 1737922837,
+    "dt": 1737979225,
     "id": 524901,
     "main": {
-        "feels_like": -0.12,
-        "grnd_level": 998,
-        "humidity": 70,
-        "pressure": 1018,
-        "sea_level": 1018,
-        "temp": 3.22,
-        "temp_max": 4.1,
-        "temp_min": 2.24
+        "feels_like": 0.66,
+        "grnd_level": 993,
+        "humidity": 76,
+        "pressure": 1012,
+        "sea_level": 1012,
+        "temp": 4.73,
+        "temp_max": 5.21,
+        "temp_min": 4.24
     },
     "name": "Moscow",
     "sys": {
         "country": "RU",
-        "id": 2095214,
-        "sunrise": 1737869641,
-        "sunset": 1737899392,
+        "id": 2094500,
+        "sunrise": 1737955941,
+        "sunset": 1737985918,
         "type": 2
     },
     "timezone": 10800,
@@ -33,14 +33,14 @@
     "weather": [
         {
             "description": "overcast clouds",
-            "icon": "04n",
+            "icon": "04d",
             "id": 804,
             "main": "Clouds"
         }
     ],
     "wind": {
-        "deg": 204,
-        "gust": 10.56,
-        "speed": 3.68
+        "deg": 225,
+        "gust": 13.17,
+        "speed": 5.74
     }
 }
