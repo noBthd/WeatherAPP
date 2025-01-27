@@ -8,12 +8,12 @@
         "lat": 55.7522,
         "lon": 37.6156
     },
-    "dt": 1737979225,
+    "dt": 1737982157,
     "id": 524901,
     "main": {
-        "feels_like": 0.66,
+        "feels_like": 0.68,
         "grnd_level": 993,
-        "humidity": 76,
+        "humidity": 77,
         "pressure": 1012,
         "sea_level": 1012,
         "temp": 4.73,
@@ -40,7 +40,7 @@
     ],
     "wind": {
         "deg": 225,
-        "gust": 13.17,
-        "speed": 5.74
+        "gust": 13.04,
+        "speed": 5.71
     }
 }

@@ -1,0 +1,14 @@
+.env
+
+/build/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+Makefile2
+*.cmake
+*.out
+*.o
+
+.vscode/
+
+ui/*.qrc.depends

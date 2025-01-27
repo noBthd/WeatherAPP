@@ -31,7 +31,16 @@ void getWeatherData(void* _callApiArgs) {
 }
 
 void formatWeatherAPI(std::string* weatherAPI) {
-    *weatherAPI = fmt::format("http://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&units=metric", CITY, API_KEY);
+    char* tmp = std::getenv("API_KEY");
+
+    if (tmp == nullptr) {
+        std::cerr << "Error: API_KEY not found in environment variables." << std::endl;
+        return;
+    }
+
+    *weatherAPI = fmt::format("http://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&units=metric",
+        CITY, tmp
+    );
 }
 
 size_t writeCallback(void* contents, size_t size, size_t nmemb, std::string* buffer) {
