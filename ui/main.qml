@@ -58,8 +58,7 @@ ApplicationWindow {
         }
 
         Text {
-            //!!! temp place_holder !!!
-            // text: "overcast clouds"
+            //??? temp place_holder ???
             text: description
             font {
                 pixelSize: 24
@@ -71,6 +70,15 @@ ApplicationWindow {
             anchors.top: parent.top
             anchors.topMargin: 380
         }
+
+        Image {
+            source: "test.png"
+            width: 60
+            height: 60
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.top: parent.top
+            anchors.topMargin: 80
+        }        
 
         Column {
             anchors.bottom: parent.bottom
@@ -85,6 +93,8 @@ ApplicationWindow {
                     anchors.horizontalCenter: parent.horizontalCenter
                     spacing: 20
 
+                    property int outerIndex: index 
+
                     Repeater {
                         model: 2 
 
@@ -96,9 +106,11 @@ ApplicationWindow {
                             radius: 5
                             scale: 1.0
 
+                            property int uniqueId: outerIndex * 2 + index + 1
+
                             Text {
-                                id: "infoText"
-                                text: "Info " + (index + 1) + ":"
+                                id: infoText
+                                text: "Info " + uniqueId + ":"
                                 font {
                                     pixelSize: 16
                                     weight: 900
@@ -112,7 +124,7 @@ ApplicationWindow {
                             }
 
                             Text {
-                                id: "test"
+                                id: currentDataText
                                 text: "test"
                                 font {
                                     pixelSize: 32

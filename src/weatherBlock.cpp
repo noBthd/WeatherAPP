@@ -3,8 +3,10 @@
 #include "strFormatUtils.h"
 #include <QQmlContext>
 
+
 Weather::Weather(QObject* parent) 
-    : QObject(parent), m_temp(""), m_description(""), m_timer(new QTimer(this)), m_engine(nullptr) {}
+    : QObject(parent), m_temp(""), m_description(""), m_timer(new QTimer(this)), m_engine(nullptr),
+    m_args(nullptr), m_json(nullptr), m_weatherAPI(nullptr) { }
 
 QString Weather::temp() const {
     return m_temp;

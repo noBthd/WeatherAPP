@@ -8,7 +8,6 @@
 #include <cstdlib>
 #include <string>
 
-#define API_KEY "dc6b6de78fdc1bac0eb88491a728527a"
 #define CITY "Moscow"
 
 void getWeatherData(void* _callApiArgs) {
@@ -31,15 +30,15 @@ void getWeatherData(void* _callApiArgs) {
 }
 
 void formatWeatherAPI(std::string* weatherAPI) {
-    char* tmp = std::getenv("API_KEY");
+    char* apikey = std::getenv("API_KEY");
 
-    if (tmp == nullptr) {
+    if (apikey == nullptr) {
         std::cerr << "Error: API_KEY not found in environment variables." << std::endl;
         return;
     }
 
     *weatherAPI = fmt::format("http://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&units=metric",
-        CITY, tmp
+        CITY, apikey
     );
 }
 

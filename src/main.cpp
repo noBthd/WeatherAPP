@@ -38,9 +38,9 @@ int main(int argc, char *argv[]) {
     weather.start(&engine);
     
     //! second thread
-    Clock clock;
-    engine.rootContext()->setContextProperty("clock", &clock);
-    clock.start(&engine);
+    Clock clockUI;
+    engine.rootContext()->setContextProperty("clock", &clockUI);
+    clockUI.start(&engine);
 
     engine.load(QUrl(QStringLiteral("qrc:/ui/main.qml")));
 
