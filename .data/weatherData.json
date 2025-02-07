@@ -1,31 +1,31 @@
 {
     "base": "stations",
     "clouds": {
-        "all": 93
+        "all": 100
     },
     "cod": 200,
     "coord": {
         "lat": 55.7522,
         "lon": 37.6156
     },
-    "dt": 1738094409,
+    "dt": 1738822309,
     "id": 524901,
     "main": {
-        "feels_like": 1.3,
-        "grnd_level": 997,
-        "humidity": 65,
-        "pressure": 1017,
-        "sea_level": 1017,
-        "temp": 4.26,
-        "temp_max": 4.26,
-        "temp_min": 3.29
+        "feels_like": -3.25,
+        "grnd_level": 1020,
+        "humidity": 62,
+        "pressure": 1040,
+        "sea_level": 1040,
+        "temp": -0.67,
+        "temp_max": 0.21,
+        "temp_min": -0.76
     },
     "name": "Moscow",
     "sys": {
         "country": "RU",
         "id": 2095214,
-        "sunrise": 1738042239,
-        "sunset": 1738072445,
+        "sunrise": 1738818825,
+        "sunset": 1738851211,
         "type": 2
     },
     "timezone": 10800,
@@ -33,14 +33,14 @@
     "weather": [
         {
             "description": "overcast clouds",
-            "icon": "04n",
+            "icon": "04d",
             "id": 804,
             "main": "Clouds"
         }
     ],
     "wind": {
-        "deg": 198,
-        "gust": 8.54,
-        "speed": 3.44
+        "deg": 79,
+        "gust": 3.38,
+        "speed": 2.01
     }
 }
