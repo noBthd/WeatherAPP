@@ -44,6 +44,7 @@ ApplicationWindow {
         }
 
         Text {
+            id: teste
             //??? temp place_holder ???
             text: temp
             font {
@@ -109,7 +110,7 @@ ApplicationWindow {
                             property int uniqueId: outerIndex * 2 + index + 1
 
                             Text {
-                                id: infoText
+                                id: currentDataText
                                 text: "Info " + uniqueId + ":"
                                 font {
                                     pixelSize: 16
@@ -124,18 +125,18 @@ ApplicationWindow {
                             }
 
                             Text {
-                                id: currentDataText
-                                text: "test"
+                                property string textId: "infoText" + uniqueId
+                                id: textId
+                                // text: textId
                                 font {
                                     pixelSize: 32
                                     weight: 900
                                 }
                                 color: "#ffffff"
 
-                                anchors.top: infoText.top
-                                anchors.left: infoText.left
+                                anchors.top: currentDataText.top
+                                anchors.left: currentDataText.left
                                 anchors.topMargin: 20
-                                // anchors.verticalCenter: parent.verticalCenter
                             }
 
                             Behavior on scale {

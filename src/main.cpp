@@ -36,6 +36,12 @@ int main(int argc, char *argv[]) {
     Weather weather;
     engine.rootContext()->setContextProperty("weather", &weather);
     weather.start(&engine);
+
+    // weather.getTextId();
+    // weather.setData();
+    // QObject* test = engine.rootObjects().first()->findChild<QObject*>("teste");
+    // QString str = "str";
+    // test->setProperty("text", str);
     
     //! second thread
     Clock clockUI;

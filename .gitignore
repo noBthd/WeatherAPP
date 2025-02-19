@@ -10,6 +10,6 @@ Makefile2
 *.o
 
 .vscode/
-.cache/
+.cache
 
 ui/*.qrc.depends
